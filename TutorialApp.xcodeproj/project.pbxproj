@@ -111,8 +111,13 @@
 		954AF6B822BA5F9E009509A8 /* TutorialApp */ = {
 			isa = PBXGroup;
 			children = (
-				95DD71F022BB63010001AFCA /* TutorialScreens */,
 				954AF6B922BA5F9E009509A8 /* AppDelegate.swift */,
+				95DD71F222BB63570001AFCA /* TutorialCollectionDesign.swift */,
+				95DD71F322BB63570001AFCA /* TutorialCollectionDesign.xib */,
+				954AF6E922BA6111009509A8 /* TutorialView.swift */,
+				954AF6EA22BA6111009509A8 /* TutorialView.xib */,
+				956AB8DA22C35B7A000991B0 /* CustomCollectionVM.swift */,
+				956AB8D722C35AC4000991B0 /* TutorialViewState.swift */,
 				954AF6BB22BA5F9E009509A8 /* ViewController.swift */,
 				954AF6BD22BA5F9E009509A8 /* Main.storyboard */,
 				954AF6C022BA5FA0009509A8 /* Assets.xcassets */,
@@ -139,51 +144,6 @@
 				954AF6DB22BA5FA0009509A8 /* Info.plist */,
 			);
 			path = TutorialAppUITests;
-			sourceTree = "<group>";
-		};
-		956AB8D522C35A75000991B0 /* State Management */ = {
-			isa = PBXGroup;
-			children = (
-				956AB8D722C35AC4000991B0 /* TutorialViewState.swift */,
-			);
-			path = "State Management";
-			sourceTree = "<group>";
-		};
-		956AB8D622C35A8F000991B0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				95DD71F122BB632F0001AFCA /* CollectionCustomView */,
-				954AF6E922BA6111009509A8 /* TutorialView.swift */,
-				954AF6EA22BA6111009509A8 /* TutorialView.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		956AB8D922C35AE8000991B0 /* ViewModal */ = {
-			isa = PBXGroup;
-			children = (
-				956AB8DA22C35B7A000991B0 /* CustomCollectionVM.swift */,
-			);
-			path = ViewModal;
-			sourceTree = "<group>";
-		};
-		95DD71F022BB63010001AFCA /* TutorialScreens */ = {
-			isa = PBXGroup;
-			children = (
-				956AB8D922C35AE8000991B0 /* ViewModal */,
-				956AB8D622C35A8F000991B0 /* View */,
-				956AB8D522C35A75000991B0 /* State Management */,
-			);
-			path = TutorialScreens;
-			sourceTree = "<group>";
-		};
-		95DD71F122BB632F0001AFCA /* CollectionCustomView */ = {
-			isa = PBXGroup;
-			children = (
-				95DD71F222BB63570001AFCA /* TutorialCollectionDesign.swift */,
-				95DD71F322BB63570001AFCA /* TutorialCollectionDesign.xib */,
-			);
-			path = CollectionCustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
