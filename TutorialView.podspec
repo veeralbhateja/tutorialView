@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TutorialView'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'The easiest way to create Tutorial Screen for any application. Just put in the name of the images separated by "," (coma)'
  
   s.description      = <<-DESC
@@ -13,6 +13,6 @@ This Tutorial view, the easiest way to show tutorial screen in your app just in 
   s.source           = { :git => 'https://github.com/veeralbhateja/tutorialView.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'TutorialApp/*'
+  s.source_files = 'TutorialApp/*.{swift,xib}'
  
 end
