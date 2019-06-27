@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TutorialView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'The easiest way to create Tutorial Screen for any application. Just put in the name of the images separated by "," (coma)'
  
   s.description      = <<-DESC
