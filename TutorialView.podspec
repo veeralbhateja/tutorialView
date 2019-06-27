@@ -13,6 +13,6 @@ This Tutorial view, the easiest way to show tutorial screen in your app just in 
   s.source           = { :git => 'https://github.com/veeralbhateja/tutorialView.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'TutorialApp/*.{swift}'
+  s.source_files = 'TutorialApp/*'
  
 end
