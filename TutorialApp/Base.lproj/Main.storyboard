@@ -48,21 +48,6 @@
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="18.75"/>
         </scene>
-        <!--HomeVC-->
-        <scene sceneID="Otg-zi-jDj">
-            <objects>
-                <viewController storyboardIdentifier="HomeVC" id="zBk-fZ-7c1" customClass="HomeVC" customModule="TutorialApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xs2-rB-4gE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="1tq-J9-GLK"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DVf-aN-GLK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1804" y="13"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="OVA-ii-0qB">
             <objects>

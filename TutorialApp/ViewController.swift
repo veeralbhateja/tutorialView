@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var viewTut: TutorialView!
+//    @IBOutlet weak var viewTut: TutorialView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

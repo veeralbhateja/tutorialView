@@ -18,7 +18,6 @@
 		954AF6EC22BA6111009509A8 /* TutorialView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954AF6EA22BA6111009509A8 /* TutorialView.xib */; };
 		956AB8D822C35AC4000991B0 /* TutorialViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956AB8D722C35AC4000991B0 /* TutorialViewState.swift */; };
 		956AB8DB22C35B7A000991B0 /* CustomCollectionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956AB8DA22C35B7A000991B0 /* CustomCollectionVM.swift */; };
-		956AB8DD22C375EF000991B0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956AB8DC22C375EF000991B0 /* HomeVC.swift */; };
 		95DD71F422BB63570001AFCA /* TutorialCollectionDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DD71F222BB63570001AFCA /* TutorialCollectionDesign.swift */; };
 		95DD71F522BB63570001AFCA /* TutorialCollectionDesign.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95DD71F322BB63570001AFCA /* TutorialCollectionDesign.xib */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		954AF6EA22BA6111009509A8 /* TutorialView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TutorialView.xib; sourceTree = "<group>"; };
 		956AB8D722C35AC4000991B0 /* TutorialViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewState.swift; sourceTree = "<group>"; };
 		956AB8DA22C35B7A000991B0 /* CustomCollectionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionVM.swift; sourceTree = "<group>"; };
-		956AB8DC22C375EF000991B0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		95DD71F222BB63570001AFCA /* TutorialCollectionDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCollectionDesign.swift; sourceTree = "<group>"; };
 		95DD71F322BB63570001AFCA /* TutorialCollectionDesign.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TutorialCollectionDesign.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +122,6 @@
 				954AF6C022BA5FA0009509A8 /* Assets.xcassets */,
 				954AF6C222BA5FA0009509A8 /* LaunchScreen.storyboard */,
 				954AF6C522BA5FA0009509A8 /* Info.plist */,
-				956AB8DC22C375EF000991B0 /* HomeVC.swift */,
 			);
 			path = TutorialApp;
 			sourceTree = "<group>";
@@ -320,7 +317,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				956AB8D822C35AC4000991B0 /* TutorialViewState.swift in Sources */,
-				956AB8DD22C375EF000991B0 /* HomeVC.swift in Sources */,
 				95DD71F422BB63570001AFCA /* TutorialCollectionDesign.swift in Sources */,
 				954AF6EB22BA6111009509A8 /* TutorialView.swift in Sources */,
 				954AF6BC22BA5F9E009509A8 /* ViewController.swift in Sources */,
