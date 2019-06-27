@@ -121,7 +121,7 @@ open class TutorialView: UIView {
     @IBAction func actionSkip(_ sender: UIButton){
         TutorialViewState.shared.isViewed = true
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "HomeVC")
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: rootVc)
         let navigationController = UINavigationController(rootViewController: nextViewController)
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         appDelegate.window?.rootViewController = navigationController
